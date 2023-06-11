@@ -31,7 +31,7 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">So simple. So quick</div>
                   <h3 className="h3 mb-3">Drag and drop videos</h3>
-                  <p className="text-xl text-gray-400 mb-4">Just drag and drop videos from the browser to start downloading. Then watch all the downloads progress in the app</p>
+                  <p className="text-xl text-gray-400 mb-4">Just drag and drop videos from the browser to start downloading. Then watch all the downloads finish in the app.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
