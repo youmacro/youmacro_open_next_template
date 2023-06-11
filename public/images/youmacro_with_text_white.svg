@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="255.61433mm"
+   height="40.000191mm"
+   viewBox="0 0 255.61433 40.000191"
+   version="1.1"
+   id="svg4538"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="youmacro_with_text_white.svg"
+   inkscape:export-filename="E:\src\youmacro2\graphics\logo_bare.png"
+   inkscape:export-xdpi="273.68503"
+   inkscape:export-ydpi="273.68503"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4532" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="414.5"
+     inkscape:cy="158"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     showguides="true"
+     inkscape:window-width="1890"
+     inkscape:window-height="1054"
+     inkscape:window-x="330"
+     inkscape:window-y="735"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4546"
+       originx="-34.999846"
+       originy="-26.999855" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4535">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.999847,-26.999854)">
+    <path
+       id="path5892"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 205.17773,102.0957 a 75.59034,75.590045 0 0 0 -72.87304,77.33985 75.59034,75.590045 0 0 0 76.08203,73.76367 v 0.0293 h 188.97461 v -0.0293 a 75.590341,75.590046 0 0 0 0.38867,0.0234 75.590341,75.590046 0 0 0 74.69141,-75.58399 l -0.0859,-3.5957 a 75.590341,75.590046 0 0 0 -78.20117,-71.94727 75.590341,75.590046 0 0 0 -72.87305,77.33985 75.590341,75.590046 0 0 0 10.32422,35.99804 H 273.1543 a 75.59034,75.590045 0 0 0 10.31054,-37.79492 l -0.0859,-3.5957 A 75.59034,75.590045 0 0 0 205.17773,102.0957 Z m 2.69532,37.7461 a 37.795272,37.795272 0 0 1 37.79687,37.79687 37.795272,37.795272 0 0 1 -37.79687,37.79492 37.795272,37.795272 0 0 1 -37.79493,-37.79492 37.795272,37.795272 0 0 1 37.79493,-37.79687 z m 188.97656,0 a 37.795272,37.795272 0 0 1 37.79687,37.79687 37.795272,37.795272 0 0 1 -37.79687,37.79492 37.795272,37.795272 0 0 1 -37.79492,-37.79492 37.795272,37.795272 0 0 1 37.79492,-37.79687 z"
+       transform="scale(0.26458333)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.1038px;line-height:1.25;font-family:'Myanmar Text';-inkscape-font-specification:'Myanmar Text, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.902604"
+       x="138.9489"
+       y="56.928902"
+       id="text5913"
+       transform="scale(0.93369156,1.0710175)"><tspan
+         sodipodi:role="line"
+         id="tspan5911"
+         x="138.9489"
+         y="56.928902"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.1038px;font-family:'Myanmar Text';-inkscape-font-specification:'Myanmar Text, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.902604">YouMacro</tspan></text>
+  </g>
+</svg>

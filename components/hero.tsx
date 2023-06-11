@@ -1,6 +1,32 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 
+export interface YouTubeFrameXXX extends React.HTMLProps<HTMLElement> {
+  frameborder: string;
+  allowfullscreen: boolean;
+  width: string;
+  height: string;
+  src: string;
+  allow: string;
+  title: string;
+}
+
+export interface MSStoreBadgeProps extends React.HTMLAttributes<HTMLElement> {
+  productid: string;
+  theme: string;
+  language: string;
+  animation: string;
+}
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      "ms-store-badge": MSStoreBadgeProps;
+      "youtube-frame": YouTubeFrameXXX;
+    }
+  }
+}
+
 export default function Hero() {
   return (
     <section>
@@ -24,18 +50,31 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+            <h1 className="h1 mb-4" data-aos="fade-up">YouMacro Video Downloader</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Drag and drop any video from your browser. Download at the highest resolutions. No usage limits. No ads. 100% Free.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" target="_blank" href="https://www.microsoft.com/store/apps/9NLWCWNH9WHL">Download from our App Page</a>
               </div>
+              {/*
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
               </div>
+              */}
             </div>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <br></br>
+            </div>
+            <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+            <ms-store-badge
+              productid="9NLWCWNH9WHL"
+              theme="light"
+              language="en-US"
+              animation="on">
+            </ms-store-badge>
           </div>
 
+          {/*
           <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
@@ -44,6 +83,15 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080} />
+          */}
+
+          <iframe 
+            width="1024" 
+            height="576" 
+            src="https://www.youtube.com/embed/9i4h90V7Iso" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" >
+          </iframe>
 
         </div>
 
