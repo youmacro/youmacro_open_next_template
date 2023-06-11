@@ -84,15 +84,15 @@ export default function Hero() {
             videoWidth={1920}
             videoHeight={1080} />
           */}
-
-          <iframe 
-            width="1024" 
-            height="576" 
-            src="https://www.youtube.com/embed/9i4h90V7Iso" 
-            title="YouTube video player" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" >
-          </iframe>
-
+          <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
+              <iframe 
+                width="1024" 
+                height="576" 
+                src="https://www.youtube.com/embed/9i4h90V7Iso" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" >
+              </iframe>
+          </div>
         </div>
 
       </div>
