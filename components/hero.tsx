@@ -1,5 +1,6 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
+import Share from '@/components/share'
 
 export interface YouTubeFrameXXX extends React.HTMLProps<HTMLElement> {
   frameborder: string;
@@ -72,6 +73,13 @@ export default function Hero() {
               language="en-US"
               animation="on">
             </ms-store-badge>
+
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <br></br>
+            </div>
+
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">If you find this useful, please share us on your socials.</p>
+            <Share/>
           </div>
 
           {/*
