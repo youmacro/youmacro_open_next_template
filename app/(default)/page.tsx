@@ -4,7 +4,7 @@ export const metadata = {
   image: "https://youmacro.com/images/screenshot.jpg",
 
   openGraph: {
-    title: 'Next.js',
+    title: 'YouMacro Video Downloader',
     description: 'Drag and drop any video from your browser. Download at the highest resolutions. No usage limits. No ads. 100% Free.',
     url: 'https://youmacro.com',
     siteName: 'YouMacro Video Downloader',
