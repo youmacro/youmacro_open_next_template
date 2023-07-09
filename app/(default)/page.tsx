@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'YouMacro Video Downloader',
   description: 'Drag and drop any video from your browser. Download at the highest resolutions. No usage limits. No ads. 100% Free.',
-  image: "/images/screenshot.jpg"
+  image: "https://youmacro.com/images/screenshot.jpg"
 }
 
 import Hero from '@/components/hero'
