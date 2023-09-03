@@ -78,7 +78,7 @@ export default function Hero() {
               <br></br>
             </div>
 
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">If you find this useful, please share us on your socials.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Share us with your friends.</p>
             <Share/>
           </div>
 
