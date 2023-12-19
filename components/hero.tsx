@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">YouMacro Video Downloader</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Drag and drop any video from your browser. Download at the highest resolutions. No usage limits. No ads. 100% Free.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Drag and drop any video from your favorite browser, or use our special custom browser to download any video or music. No usage limits. No ads. 100% Free.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" target="_blank" href="https://www.microsoft.com/store/apps/9NLWCWNH9WHL">Download from our App Page</a>
@@ -96,7 +96,7 @@ export default function Hero() {
               <iframe 
                 width="1024" 
                 height="576" 
-                src="https://www.youtube.com/embed/9i4h90V7Iso" 
+                src="https://www.youtube.com/embed/vmZa8sd-i4Y?si=G3e8malKX9yE7-1x"
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" >
               </iframe>
