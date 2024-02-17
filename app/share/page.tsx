@@ -22,6 +22,7 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero'
+import Share from '@/components/share'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
@@ -30,11 +31,27 @@ import Testimonials from '@/components/testimonials'
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Features />
-      <Zigzag />
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <br></br>
+            </div>
+
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Share us with your friends.</p>
+            <Share/>
+          </div>
     </>
   )
-  // <Testimonials />
-  // <Newsletter />
 }
