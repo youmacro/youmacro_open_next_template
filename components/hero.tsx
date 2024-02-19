@@ -55,7 +55,10 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Drag and drop any video from your favorite browser, or use our special custom browser to download any video or music. No usage limits. No ads. 100% Free.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" target="_blank" href="https://www.microsoft.com/store/apps/9NLWCWNH9WHL">Download from our App Page</a>
+                {/*linking without the queries after the url is slow
+                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" target="_blank" href="https://www.microsoft.com/store/apps/9NLWCWNH9WHL">Download from our App Page</a>
+                 */}
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" target="_blank" href="https://apps.microsoft.com/detail/9NLWCWNH9WHL?rtc=1&hl=en-us&gl=US">Download from our App Page</a>
               </div>
               {/*
               <div data-aos="fade-up" data-aos-delay="600">
